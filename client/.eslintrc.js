@@ -1,24 +1,14 @@
 module.exports = {
+    "root": true,
     "env": {
-        "browser": true,
-        "es6": true,
         "node": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:vue/essential"
+        "plugin:vue/essential",
+        "eslint:recommended"
     ],
-    "globals": {
-        "Atomics": "readonly",
-        "SharedArrayBuffer": "readonly"
-    },
+    "rules": {},
     "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
-    },
-    "plugins": [
-        "vue"
-    ],
-    "rules": {
+        "parser": "babel-eslint"
     }
 };

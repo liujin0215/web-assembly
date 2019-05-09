@@ -4,8 +4,9 @@
     "module": "commonjs",
     "outDir": "./built",
     "sourceMap": true
-},
+  },
   "include": [
     "./src/**/*"
-  ]
+  ],
+  "watch": true
 }
